@@ -150,7 +150,7 @@ h3.heading{
 .clients img {
   width: 40%;
   border-radius: 50%;
-  margin-left: 240px;
+  margin-left: 200px;
   margin-bottom: 30px;
 }
 blockquote .svg-inline--fa {
@@ -228,11 +228,11 @@ hr.socket {
 
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (min-width: 1150px) {
   .clients img {
     width: 50%;
     border-radius: 50%;
-    margin-left: 170px;
+    margin-left: 240px;
     margin-bottom: 30px;
   }
   }
