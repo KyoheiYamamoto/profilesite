@@ -1,36 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
-body{
+body {
   overflow-x: hidden;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #505962;
 }
 
 .offset::before {
   display: block;
-  content: "";
+  content: '';
   height: 4rem;
   margin-top: -4rem;
 }
 
 /* navigation */
 
-.navbar{
+.navbar {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: .9rem;
-  letter-spacing: .1rem;
-  background: rgba(0, 0, 0, 0.6)!important ;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background: rgba(0, 0, 0, 0.6) !important ;
 }
-.navbar-brand img{
+.navbar-brand img {
   height: 2rem;
 }
-.navbar-nav li{
-  padding-right: .7rem;
+.navbar-nav li {
+  padding-right: 0.7rem;
 }
-.navbar-dark .navbar-nav .navbar-link{
+.navbar-dark .navbar-nav .navbar-link {
   color: white;
-  padding-top: .8rem;
+  padding-top: 0.8rem;
 }
 .navbar-dark .navbar-nav .navbar-link.active,
 .navbar-dark .navbar-nav .navbar-link:hover {
@@ -39,10 +39,10 @@ body{
 
 /* LP */
 
-.home-inner{
+.home-inner {
   background-image: url(img/code.jpg);
 }
-.caption{
+.caption {
   width: 100%;
   max-width: 100%;
   position: absolute;
@@ -51,48 +51,48 @@ body{
   color: white;
   text-transform: uppercase;
 }
-.caption h1{
- font-size: 3.0rem;
- font-weight: 700;
- letter-spacing: .3rem;
- text-shadow: .1rem .1rem .8rem black;
- padding-bottom: 1rem;
+.caption h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
 }
-.caption h3{
+.caption h3 {
   font-size: 2rem;
-  text-shadow: .1rem .1rem .8rem black;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
   padding-bottom: 1.6rem;
 }
 .btn-lg {
   border-width: medium;
   border-radius: 0;
-  padding: .6rem 1.3rem;
+  padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
 }
 
 /* course section */
 
-.narrow{
+.narrow {
   width: 75%;
   margin: 1.5rem auto;
   padding-top: 2rem;
 }
-.narrow h1{
+.narrow h1 {
   font-size: 3rem;
 }
-.btn-secondary{
+.btn-secondary {
   border-width: medium;
   border-radius: 0;
   text-transform: uppercase;
   font-size: 1.2rem;
-  padding: .6rem;
+  padding: 0.6rem;
   margin: 1rem;
   color: white;
-  background-color:#1ebba3;
+  background-color: #1ebba3;
   border-color: #1ebba3;
 }
 .btn-secondary:hover {
-  background-color:#189582;
+  background-color: #189582;
   border-color: #189582;
 }
 
@@ -103,7 +103,7 @@ body{
   padding: 2rem 0 3.5rem;
   border-radius: 0;
 }
-h3.heading{
+h3.heading {
   font-size: 1.9rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -111,19 +111,19 @@ h3.heading{
 }
 .heading-underline {
   width: 3rem;
-  height: .2rem;
+  height: 0.2rem;
   background-color: #1ebba3;
   margin: 0 auto 2rem;
 }
 .feature svg.svg-inline--fa {
-  color:#1ebba3;
+  color: #1ebba3;
 }
 .feature h3 {
   font-size: 1.3rem;
   text-transform: uppercase;
-  padding-bottom: .4rem;
+  padding-bottom: 0.4rem;
 }
-.feature p{
+.feature p {
   font-size: 1.1rem;
 }
 
@@ -134,7 +134,7 @@ h3.heading{
   z-index: -1;
 }
 .dark {
-  background-color:rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.75);
   color: white;
   padding: 7rem 2rem;
 }
@@ -157,14 +157,14 @@ blockquote .svg-inline--fa {
   color: #1ebba3;
   margin: 1rem;
 }
-clients-hr{
-  border-top: .05rem solid #1ebba3;
+clients-hr {
+  border-top: 0.05rem solid #1ebba3;
 }
 
 /* Contacts Section */
 
 footer {
-  background-color: #CCCCCC;
+  background-color: #cccccc;
 
   padding: 2rem 0 2rem;
   margin-top: 1rem;
@@ -176,10 +176,10 @@ footer img {
 footer a {
   color: white;
 }
-.social-link1{
-  color: #00aced ;
+.social-link1 {
+  color: #00aced;
 }
-.social-link2{
+.social-link2 {
   color: black;
 }
 
@@ -187,12 +187,12 @@ footer svg.svg-inline--fa {
   font-size: 3rem;
   margin: 1.5rem 1.5rem;
 }
-footer svg.svg-inline--fa:hover{
-  color: #1ebba3!important;
+footer svg.svg-inline--fa:hover {
+  color: #1ebba3 !important;
 }
 hr.socket {
   width: 100%;
-  border-top: .2rem solid #666b71;
+  border-top: 0.2rem solid #666b71;
   margin-top: 3rem;
 }
 
@@ -209,23 +209,22 @@ hr.socket {
     margin: 0 auto;
   }
 
-  .caption h1{
-    font-size: 2.0rem;
-    letter-spacing: .15rem;
-    padding-bottom: .5rem;
-   }
-   .caption h3{
-     font-size: 1rem;
-     padding-bottom: 1.2rem;
-   }
-   .btn-lg {
-     padding: .5rem 1rem;
-     font-size: 1rem;
-   }
-   .narrow h1{
+  .caption h1 {
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+    padding-bottom: 0.5rem;
+  }
+  .caption h3 {
+    font-size: 1rem;
+    padding-bottom: 1.2rem;
+  }
+  .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  .narrow h1 {
     font-size: 3rem;
   }
-
 }
 
 @media screen and (min-width: 1150px) {
@@ -235,25 +234,4 @@ hr.socket {
     margin-left: 240px;
     margin-bottom: 30px;
   }
-  }
-
-
-
-/*============ BOOTSTRAP BREAK POINTS:
-
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-=============*/
+}
