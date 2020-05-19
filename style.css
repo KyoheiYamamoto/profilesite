@@ -182,14 +182,17 @@ footer a {
 .social-link2 {
   color: black;
 }
+.social-link3 {
+  color: blueviolet;
+}
 
 footer svg.svg-inline--fa {
   font-size: 3rem;
   margin: 1.5rem 1.5rem;
 }
-footer svg.svg-inline--fa:hover {
+/* footer svg.svg-inline--fa:hover {
   color: #1ebba3 !important;
-}
+} */
 hr.socket {
   width: 100%;
   border-top: 0.2rem solid #666b71;
